@@ -36,7 +36,7 @@ The primary reasons for using `git rebase` include:
 
 <figure id="Rebase" style="text-align: center;">
   <img src="Figures/Rebase_setup.svg" alt="Basic setup" width="450"/>
-  <figcaption>Figure 1: Fast-Forward merging</figcaption>
+  <figcaption>Figure 1: Rebase setup</figcaption>
 </figure>
 <p style="text-align: center;">
   Image source: www.atlassian.com 
