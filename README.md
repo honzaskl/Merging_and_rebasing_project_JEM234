@@ -5,7 +5,7 @@ Git provides various ways to manage changes and ensure smooth collaboration. How
 
 ## Content
 The project consists from two main parts:
-* [Advanced merging strategies](./merging_strategies.md)
+* [Advanced merging strategies](./Advanced_merging_strategies.md)
   * This section covers merging strategies, starting with basic concepts and progressing to more advanced techniques.
 * [Rebasing](./rebasing.md)
   * The second part talks about rebasing techniques and differences between rebasing and merging.
