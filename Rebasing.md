@@ -33,10 +33,20 @@ The primary reasons for using `git rebase` include:
 ---
 
 ## Basic Git Rebase Workflow
-
+Let us consider  
 <figure id="Rebase" style="text-align: center;">
   <img src="Figures/Rebase_setup.svg" alt="Basic setup" width="450"/>
   <figcaption>Figure 1: Rebase setup</figcaption>
+</figure>
+<p style="text-align: center;">
+  Image source: www.atlassian.com 
+</p>
+<https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
+
+
+<figure id="Rebase" style="text-align: center;">
+  <img src="Figures/Rebase_final.svg" alt="Basic setup" width="450"/>
+  <figcaption>Figure 2: Rebase final</figcaption>
 </figure>
 <p style="text-align: center;">
   Image source: www.atlassian.com 
