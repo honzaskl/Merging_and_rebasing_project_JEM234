@@ -40,7 +40,7 @@ Let us consider a scenario where you start working on a new feature in a separat
   <figcaption>Figure 1: Setup</figcaption>
 </figure>
 <p style="text-align: center;">
-  Image source: www.atlassian.com 
+  Figure source: www.atlassian.com 
 </p>
 <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
@@ -50,7 +50,7 @@ Adding the new commits into the feature branch using `git rebase` is displayed i
   <figcaption>Figure 2: Rebase final</figcaption>
 </figure>
 <p style="text-align: center;">
-  Image source: www.atlassian.com 
+  Figure source: www.atlassian.com 
 </p>
 <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
@@ -65,7 +65,7 @@ The same situation can be solved using `git merge` as shown in [Figure 3](#Merge
   <figcaption>Figure 3: Merge option</figcaption>
 </figure>
 <p style="text-align: center;">
-  Image source: www.atlassian.com 
+  Figure source: www.atlassian.com 
 </p>
 <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
@@ -100,13 +100,13 @@ pick 5c67e61 Info for commit #3
   <figcaption>Figure 4: Interactive rebasing</figcaption>
 </figure>
 <p style="text-align: center;">
-  Image source: www.atlassian.com 
+  Figure source: www.atlassian.com 
 </p>
 <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
 ## Sources
 
-https://www.30secondsofcode.org/git/s/interactive-rebase/
-https://www.atlassian.com/git/tutorials/merging-vs-rebasing
-https://git-scm.com/docs/git-rebase
-https://www.geeksforgeeks.org/what-is-git-interactive-rebasing/
+- https://www.30secondsofcode.org/git/s/interactive-rebase/
+- https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+- https://git-scm.com/docs/git-rebase
+- https://www.geeksforgeeks.org/what-is-git-interactive-rebasing/
