@@ -26,12 +26,15 @@ The most used merge strategy is fast-forward merge that occurs during a merge op
 git merge feature_branch
 ```
 
+![Forward Merging](./git-farwad-merging.png)
+
 ### Three-Way Merge
 Another simple strategy used when both the base branch and the feature branch have diverged (both have new commits since their last shared common ancestor) is the three-way merge. As the name suggests, Git uses three commits to generate the merge commit: the two branches and their common ancestor. Even though this strategy is different than the fast-forward one, the same commmand is used and Git automatically chooses the correct strategy based on the commit history.
 
 ```bash
 git merge feature_branch
 ```
+![Three-Way Merging](./git-three-way-merging.png)
 
 ### Recursive Merge
 This strategy is used for handling more complicated merges when branches have diverged, meaning that both the base and feature branches have unique commits. It creates a new merge commit to preserve the history of both branches similarly to the 3-way merge.
@@ -69,8 +72,8 @@ git merge -s subtree branchA branchB
 ```
 
 ## References:
-https://www.geeksforgeeks.org/merge-strategies-in-git/
-https://www.atlassian.com/git/tutorials/using-branches/merge-strategy
-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-https://medium.com/@dmosyan/git-merge-strategies-options-that-you-dont-need-to-know-4d90223f38c3
-https://www.workingsoftware.dev/which-git-merge-strategy-is-appropriate-for-our-team/
+- [GeeksforGeeks: Merge Strategies in Git](https://www.geeksforgeeks.org/merge-strategies-in-git/)
+- [Atlassian: Using Branches in Git](https://www.atlassian.com/git/tutorials/using-branches/merge-strategy)
+- [Git SCM: Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- [Medium: Git Merge Strategies](https://medium.com/@dmosyan/git-merge-strategies-options-that-you-dont-need-to-know-4d90223f38c3)
+- [Working Software: Git Merge Strategies](https://www.workingsoftware.dev/which-git-merge-strategy-is-appropriate-for-our-team/)
